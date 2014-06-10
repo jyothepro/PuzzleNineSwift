@@ -58,7 +58,7 @@ class ViewController: UIViewController {
 				var label:UILabel = UILabel(frame:CGRectMake(25.0, 20.0, 30.0, 30.0))
 				label.text = String(i+1)
 				label.textColor = UIColor(red: 51.0/255.0, green:51.0/255.0, blue:51.0/255.0, alpha:1.0)
-				label.font = UIFont(name: "DamascusBold", size: 17.0)
+				label.font = UIFont(name: "DamascusBold", size: 20.0)
 				view.addSubview(label)
 
 				let tap:UITapGestureRecognizer = UITapGestureRecognizer(target:self, action:"handleGesture:")
